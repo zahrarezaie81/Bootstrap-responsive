@@ -21,10 +21,10 @@ Please follow these instructions carefully:
 4. Ensure the directory structure as follows:
 
 - assets
-  -- fonts
-  --images
+- - -- fonts
+- - --images
 - styles
-  --bootstrap(if you are using offline version)
+- - --bootstrap(if you are using offline version)
 - scripts
 - index.html
 - games.html
