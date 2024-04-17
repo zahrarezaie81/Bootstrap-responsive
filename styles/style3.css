@@ -132,4 +132,64 @@
 .mt-6{
     margin-top: 6.8px;
 }
+.background-3{
+    background-color: var(--purpule);
+}
+.ml-145{
+    margin-left: 145px;
+}
+.width-807{
+    width: 807px;
+}
+.height-761{
+    height: 761px;
+}
+.img-cry1{
+    left: 828px;
+    top: 202px;
+}
+.img-unreal{
+    top: 218px;
+    left: 1168px;
+}
+.img-unity{
+    top: 409px;
+    left: 649px;
+}
+.first-section-left{
+    margin-left: 147px;
+    height: 409px;
+    width:max-content;
+    margin-top: 203px;
+    margin-left: 147px; 
+}
+.first-section-left-p1{
+    font-weight: 700;
+    width: 479px;
+    color: var(--secondary);
+    font-size: 20px;
+}
+.first-section-left-p2{
+    color: var(--white);
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 17px;
+    line-height: 77.6px;
+  }
+.first-section-left-p3{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 26px;
+}
+.first-section-left-btn{
+    text-decoration: none;
+    width: 195px;
+    height: 53px;
+    margin-top: 48px;
+    font-size: 16px;
+    background-color: var(--secondary);
+}
+
+  
     

@@ -80,8 +80,7 @@ main{
   height: 409px;
   width:max-content;
   margin-top: 203px;
-  margin-left: 147px;
-  
+  margin-left: 147px; 
 }
 #first-section-left-p1{
   font-weight: 700;
@@ -96,24 +95,12 @@ main{
   font-size: 50px;
   font-weight: 700;
   margin-top: 17px;
-
 }
 #first-section-left-p3{
   color: var(--white);
   font-size: 16px;
   font-weight: 500;
   margin-top: 26px;
-
-}
-#first-section-left-btn{
-  width: 195px;
-  height: 53px;
-  margin-top: 48px;
-  border-radius: 25px;
-  font-size: 16px;
-  background-color: var(--secondary);
-  border: 1px solid var(--secondary);
-  color: var(--white);
 }
 #first-section-left-btn a{
   text-decoration: none;
