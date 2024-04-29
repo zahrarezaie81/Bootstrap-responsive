@@ -23,6 +23,7 @@
     flex-direction: row;
     gap: 36.13px;
   }
+  
   .header-right-menu{
     display: flex;
     flex-direction: row;
@@ -34,8 +35,8 @@
     text-decoration: none;
     color: var(--white);
   }
-
-  #logo{
+  .logo{
+    font-weight: 800;
     font-family: Poppins;
     font-size: 29px;
     line-height: 44.51px;

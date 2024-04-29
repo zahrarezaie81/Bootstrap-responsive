@@ -14,194 +14,126 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&family=Rubik:wght@300..900&display=swap" rel="stylesheet">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style3.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
-  <body class="borderbox p-0 m-0 width-1440 font-poppins">
+  <body class="borderbox p-0 m-0 font-poppins">
 
-      <div class="width-1440 header position-fixed top-0 left-0 background-1 z-2 text-white d-flex flex-row justify-content-between " style=" height: 100px;">
-        <span class="font-s-29 font-w-800 width-81 height-45 line-h-44 ml-58 mt-25 mb-30 width-81 height-45">LOGO</span>
-        <div class="d-flex flex-row gap-36 height-41 width-500 mt-32 mb-26 font-s-16 font-w-400 ml-59 mr-59 line-h-24 ">
-          <div class="d-flex flex-row justify-content-start gap-88 align-items-center">
-            <a href="index.html" class="text-decoration-none text-white">
-              Home
-              <div class="d-flex flex-row gap-1 position-relative right mt-6">
-                <div class="line width-30"></div>
-                <div class="dot width-5"></div>
-              </div>
-            </a>
-            <a href="index2.html" class="text-decoration-none text-white">Games</a>
-            <a href="#" id="aboutus-span" class="text-decoration-none text-white width-74">About Us</a>
-            <a href="#" class="text-decoration-none text-white">News</a>
-          </div>
-          <button type="button" class="btn btn-background text-white pl-50 height-41 pr-50">Light</button>
+    <nav class="navbar navbar-expand-lg background-1 height-100 nav-border">
+      <div class="container-fluid">
+        <a class="navbar-brand font-s-29 font-w-800 ml-58 mt-12 text-white" href="#">LOGO</a>
+        <button class="navbar-toggler color-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mr-59" id="navbarSupportedContent">
+          <ul class="navbar-nav mt-25 text-align-center">
+            <li class="nav-item">
+              <a class="nav-link active text-white text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ml-88">
+              <a class="nav-link text-white" href="#">Games</a>
+            </li>
+            <li class="nav-item ml-88  ">
+              <a class="nav-link text-white" aria-current="page" href="#">AboutUs</a>
+            </li>
+            <li class="nav-item ml-88">
+              <a class="nav-link text-white mr-32" aria-current="page" href="#" >News</a>
+            </li>
+          </ul>
+          <button class="btn text-white btn-background width-130 light-button rounded-2 " type="submit">Light</button>
         </div>
       </div>
+    </nav>
 
 
       <main class="background-3">
+        <img class="img-cry1 d-none d-lg-block position-absolute" src="assets/images/cry 1.svg" alt="cry1">
+        <img class="img-unreal d-none d-lg-block position-absolute" src="assets/images/unreal 1.svg" alt="unreal">
+        <img class="img-unity d-none d-lg-block position-absolute" src="assets/images/unity 1.svg" alt="unity 1">
+        <div class="container">
+          <div class=" row gap-110 justify-content-center justify-content-lg-between">
 
-        <img class="img-cry1 position-absolute" src="assets/images/cry 1.svg" alt="cry1">
-        <img class="img-unreal position-absolute" src="assets/images/unreal 1.svg" alt="unreal">
-        <img class="img-unity position-absolute" src="assets/images/unity 1.svg" alt="unity 1">
-
-        <div class="d-flex flex-row justify-content-between">
-
-          <div class="first-section-left">
+          <div class="first-section-left col-lg-6 col-md-12 col-12 order-md-2 order-lg-1 text-center text-md-center text-lg-start">
             <p class="first-section-left-p1">Proved By Your Name</p>
-            <h1 class="first-section-left-p2">Work that we<br>produce for our <br> clients</h1>
-            <p class="first-section-left-p3">Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the industry's <br> standard.</p>
-            <button class="btn first-section-left-btn text-white rounded-5">Get more details</button>
+            <h1 class="first-section-left-p2 ml-xs">Work that we produce for our clients</h1>
+            <p class="first-section-left-p3 ml-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+            <button class="btn first-section-left-btn text-white rounded-5 ">Get more details</button>
           </div>
 
-          <img class="ml-145 width-807 height-761" src="assets/images/joy_stick 1.svg" alt="joy_stick">
+          <img class="width-807 col-md-12 col-lg-6 height-761 d-none d-md-block d-lg-block order-md-1 order-lg-2 ml-md" src="assets/images/joy_stick 1.svg" alt="joy_stick">
 
+          </div>
         </div>
-
+        
         <div class="mt-132">
-
-          <div class="second-section-top d-flex flex-row justify-content-around align-content-center">
-            <p class="second-section-top-p text-white">Currently Trending Games</p>
-            <button class="btn btn-second-section text-white rounded-3">SEE ALL</button>
+          
+          <div class="container">
+            <div class="second-section-top row justify-content-lg-between justify-content-md-center justify-content-center">
+              <p class="second-section-top-p  text-white col-lg-6 col-md-12 col-12 text-center ">Currently Trending Games</p>
+              <button class="btn btn-second-section text-white rounded-3 d-md-none d-none d-lg-block col-lg-6">SEE ALL</button>
+            </div>
           </div>
 
 
-          <ul class="second-section-buttom d-flex flex-row justify-content-between">
-
-            <li class="position-relative">
-              <article class="card background-1 card-border text-white">
-                <img class="card-img-top hover-overlay" src="assets/images/Rectangle 23.svg" alt="rect23">
-                <div class="card-body card-bottom d-flex flex-row justify-content-center">
-                  <img src="assets/images/fire 1.svg" alt="fire">
-                  <span class="card-text">40 Followers</span>
-                </div>
-              </article>
-            </li>
-            <li class="position-relative" >
-              <article class="card background-1 card-border text-white">
-                <img class="card-img-top" src="assets/images/Rectangle 24.svg" alt="rect24">
-                <div class="card-body card-bottom d-flex flex-row justify-content-center">
-                  <img src="assets/images/fire 1.svg" alt="fire">
-                  <span class="card-text">40 Followers</span>
-                </div>
-              </article>
-            </li>
-
-            <li class="position-relative" >
-              <article class="card background-1 card-border text-white">
-                <img class="card-img-top"  src="assets/images/Rectangle 25.svg" alt="rect25">
-                <div class="card-body card-bottom d-flex flex-row justify-content-center">
-                  <img src="assets/images/fire 1.svg" alt="fire">
-                  <span class="card-text">40 Followers</span>
-                </div>
-              </article>
-            </li>
-
-            <li class="position-relative">
-              <article class="card background-1 card-border text-white">
-                <img class="card-img-top" src="assets/images/Rectangle 26.svg" alt="rect26">
-                <div class="card-body card-bottom d-flex flex-row justify-content-center">
-                  <img src="assets/images/fire 1.svg" alt="fire">
-                  <span class="card-text">40 Followers</span>
-                </div>
-              </article>
-            </li>
-
+          <ul class="second-section-buttom container">
+            <div class=" row justify-content-center">
+              <li class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
+                <article class="card background-1 card-border text-white">
+                  <img class="card-img-top hover-overlay" src="assets/images/Rectangle 23.svg" alt="rect23">
+                  <div class="card-body card-bottom d-flex flex-row justify-content-center">
+                    <img src="assets/images/fire 1.svg" alt="fire">
+                    <span class="card-text">40 Followers</span>
+                  </div>
+                </article>
+              </li>
+              <li class="col-lg-3 col-md-6 col-12 d-flex justify-content-center" >
+                <article class="card background-1 card-border text-white">
+                  <img class="card-img-top" src="assets/images/Rectangle 24.svg" alt="rect24">
+                  <div class="card-body card-bottom d-flex flex-row justify-content-center">
+                    <img src="assets/images/fire 1.svg" alt="fire">
+                    <span class="card-text">40 Followers</span>
+                  </div>
+                </article>
+              </li>
+  
+              <li class="col-lg-3 col-md-6 col-12 d-flex justify-content-center" >
+                <article class="card background-1 card-border text-white">
+                  <img class="card-img-top img-mt"  src="assets/images/Rectangle 25.svg" alt="rect25">
+                  <div class="card-body card-bottom d-flex flex-row justify-content-center">
+                    <img src="assets/images/fire 1.svg" alt="fire">
+                    <span class="card-text">40 Followers</span>
+                  </div>
+                </article>
+              </li>
+  
+              <li class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
+                <article class="card background-1 card-border text-white">
+                  <img class="img card-img-top img-mt" src="assets/images/Rectangle 26.svg" alt="rect26">
+                  <div class="card-body card-bottom d-flex flex-row justify-content-center">
+                    <img src="assets/images/fire 1.svg" alt="fire">
+                    <span class="card-text">40 Followers</span>
+                  </div>
+                </article>
+              </li>
+  
+            </div>
           </ul>
 
-          <div>
-              <p class="text-white text-center lorem ">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
-          </div>
-        </div>
-
-        <div class="text-white third-section">
-          <span class="third-section-span">Lorem Ipsum</span>
-          <p class="third-section-p">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's standard dummy text <br> ever since the 1500s,</p>
-        </div>
-
-        <img class="rect4 rounded-2 position-relative z-1" src="assets/images/Rectangle 4.svg" alt="rect4">
-        <img class="group21 position-absolute " src="assets/images/Group 21.svg" alt="Group21">
-
-        <div class="fourth-section">
-
-          <div class="mt-148 text-white">
-
-            <div>
-              <p class="fourth-section-p1">Our Recent Projects</p>
-              <p class="fourth-section-p2 text-center">Lorem Ipsum is simply dummy text of the printing and  typesetting <br> industry.</p>
-            </div>
-
-            <div class="d-flex flex-column fourth-section-buttom">
-
-              <div class="d-flex flex-row gap-28">
-                <img src="assets/images/Rectangle 15.svg" alt="rect 15">
-                <img src="assets/images/Rectangle 16.svg" alt="rect 16">
-                <img src="assets/images/Rectangle 17.svg" alt="rect 17">
+          <div class="container">
+              <div class="row justify-content-center">
+                <p class="text-white text-center lorem text-lg-center text-md-start ml">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
               </div>
-
-              <div class="d-flex flex-row gap-28">
-                <img src="assets/images/Rectangle 19.svg" alt="rect 19">
-                <img src="assets/images/Rectangle 18.svg" alt="rect 18">
-                <img src="assets/images/Rectangle 20.svg" alt="rect 20">
-              </div>
-            </div> 
-            
-            <button class="btn btn-second-section text-white rounded-3 btn-margin">SEE ALL</button>
-
           </div>
         </div>
 
-        <div class="fifth-section text-white">
-          <span class="fifth-section-span">Lorem Ipsum</span>
-          <p class="fifth-section-p">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. </p>
+        <div class="text-white third-section container">
+          <div class="row">
+            <div class="col-12">
+              <span class="third-section-span">Lorem Ipsum</span>
+              <p class="third-section-p text-start text-lg-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            </div>            
+          </div>  
         </div>
-
-        <div class="d-flex flex-row justify-content-around text-white sixth-section">
-
-          <div class="sixth-section-left">
-            <span class="sixth-section-left-span">Stay in the loop</span>
-            <p class="sixth-section-left-p">Subscribe to receive the latest news and updates about TDA . <br>We promise not to spam you! </p>
-          </div>
-
-          <div class="sixth-section-right d-flex flex-row justify-content-between align-content-center rounded-2">
-            <p class="sixth-section-right-p">Enter email address</p>
-            <button class="btn sixth-section-btn rounded-2 background-2">Continue</button>
-          </div>
-
-        </div>
-
-
-        <footer class="myfooter text-white">
-          
-          <div class="d-flex flex-row justify-content-between">
-            <div class="footer-sec1-1 position-absolute text-white">
-              <p class="p1">LOGO</p>
-              <p class="p2">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. </p>
-              <p class="p3">@Logo</p>
-            </div>
-            <div class="footer-sec1-2 position-absolute">
-              <p class="about-us position-absolute text-nowrap">About us</p>
-              <ul class="list-group position-absolute ul-li">
-                <li>Zeux</li>
-                <li>Portfolio</li>
-                <li>Contact us</li>
-                <li>Careers</li>
-              </ul>
-            </div>
-            <div class="footer-sec1-3 position-absolute">
-              <p class="p1">Contact us</p>
-              <p class="p2">Lorem Ipsum is simply dummy text <br> of the printing and typesetting <br> industry. </p>
-              <p class="p3">+908 89097 890</p>
-            </div>
-            <div class="d-flex flex-row position-absolute footer-sec1-4">
-              <img class="image" src="assets/images/Group 5.svg" alt="Group 5">
-              <img class="image" src="assets/images/Group 11.svg" alt="Group 11">
-              <img class="image" src="assets/images/Group 10.svg" alt="Group 10">
-              <img class="image" src="assets/images/Group 9.svg" alt="Group 9">
-            </div>
-          </div>
-          <div class="copy text-nowrap"><p >Copyright ® 2022 <b>your name</b> All rights Rcerved</p></div>
-          <hr class="hr position-relative">
-        </footer>
+      
     
       </main>
   </body>

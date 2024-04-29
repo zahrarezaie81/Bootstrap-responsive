@@ -1,24 +1,22 @@
 .myfooter{
-    width: 1440px;
     height: 376px;
     background-color: var(--black);
     margin-top: 163px;
+    padding-top: 65px;
 }
+
 .footer-sec1-1{
-    margin-top: 65px;
     height: 161px;
     margin-bottom: 53px;
-    left: 101px;
+    margin-left: 101px;
 }
 .footer-sec1-2{
-    margin-top: 70px;
     height: 161px;
-    left: 551px;
+    margin-left: 20px;
 }
 .footer-sec1-3{
-    margin-top: 70px;
     height: 161px;
-    left: 771px;
+    margin-left: 0px;
 }
 .footer-sec1-1 .p1{
     width: 68px;
@@ -43,7 +41,7 @@
     line-height: 24px;
     margin-top: 25px;
 }
-.about-us{
+.ul-li .about-us{
     width: 76px;
     height: 26px;
     font-weight: 500;
@@ -51,13 +49,12 @@
     line-height: 25.5px;
 }
 .ul-li{
-    width: 372px;
+    
     height: 117px;
     font-weight: 400;
     font-size: 16px;
     line-height: 29.81px;
     list-style-type: none;
-    bottom: -10px;
 }
 .background-4{
     color: var(--black);
@@ -90,20 +87,18 @@
   flex-direction: row;
   height: 50px;
   margin-top: 196px;
-  position: absolute;
-  left: 1136px;
 }
 .footer-sec1-4{
     height: 50px;
-    margin-top: 196px;
     left: 1136px;
+    padding-top: 120px;
+    padding-right: 100px;
 }
 .footer-sec1-4 .image{
     width: 60px;
     height: 60px;
   }
 .myfooter .copy{
-    margin-top: 322px;
     margin-left: 588px;
     width: 300px;
     height: 25px;
@@ -111,13 +106,6 @@
     font-size: 13px;
     line-height: 24.78px;
 }
-.copy b{
-    color: var(--white);
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 24.78px;
-}
 .hr{
-    bottom: 65px;
     color: var(--gray2);
 }
